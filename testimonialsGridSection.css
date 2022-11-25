@@ -1,0 +1,131 @@
+html{
+	box-sizing: border-box;
+	font-size: 13px;
+	font-family: "Lato"
+}
+* {
+	box-sizing: inherit;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: hsl(0, 0%, 81%);
+}
+.nameCard img{
+	width: 22px;
+	height: 21px;
+	border-radius: 30px;
+	border: 0.2px solid rgba(255,255,255, 0.3);
+	
+}
+#quote{
+	position: absolute;
+	right: 15%;
+	top: 0px;
+	z-index: -1;
+}
+.nameCard{
+	display: flex;
+	align-content: center;
+	margin-bottom: 10px;
+}
+.nameQual{
+	margin-left: 10px;
+	
+}
+.name{
+	font-size: 0.8rem;
+	font-weight: 500;
+	
+}
+.reviewParagragh{
+	margin-bottom: px;
+	line-height: ;
+		
+}
+.verifiedGraduate, .reviewParagragh{
+	font-size: 0.6rem;
+	opacity: 0.57;
+}
+.firstComment{
+	font: 600 .9rem "Source sans pro";
+	line-height: ;
+	margin-bottom: 15px;
+	z-index: 2;
+}
+
+#overallContainer{
+	padding: 5% 3%;
+
+	
+}
+.individual{
+	margin-bottom: 20px;
+	padding:15px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2)
+}
+
+#one{
+	background: hsl(263, 55%, 52%);
+	color: hsl(0, 0%, 100%);
+	position: relative;
+	z-index: 0;
+}
+#two{
+	background: hsl(217, 19%, 35%);
+	color: hsl(0, 0%, 100%);
+}
+#three{
+	background:  hsl(0, 0%, 100%);
+	color: 
+}
+#four{
+	background: hsl(219, 29%, 14%);
+	color: hsl(0, 0%, 100%);
+}
+#five{
+	background:  hsl(0, 0%, 100%);
+}
+
+@media(min-width: 567px){
+	
+	#overallContainer{
+		display: flex;
+		max-width: 940px;
+		margin: 0px auto ;
+	}
+	#five{
+		flex-basis:23%;
+	}
+	#oneToFour{
+		display: flex;
+	  flex-direction: column;
+		flex-basis: 77%;
+	
+	}
+	#oneToFour .individual{
+		margin-right: 15px;
+		
+	}
+	#oneTwo{
+		display: flex;
+		flex-basis: 50%;
+	}
+	#threeFour{
+		display: flex;
+  }
+	
+  #one{
+	flex-basis: 67%;
+  }
+  #two{
+	flex-basis: 33%;
+  }
+  #three{
+	flex-basis: 33%;
+  }
+	#four{
+		flex-basis: 67%;
+	}
+}	
